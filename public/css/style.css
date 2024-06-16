@@ -1,0 +1,48 @@
+body {
+    background-color: #041C32;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .55);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, .75);
+}
+
+.card {
+    background-color: #062A4E;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.input-group-text {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-primary {
+    background-color: #017BFE;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-center small {
+    color: rgba(255, 255, 255, .75);
+}

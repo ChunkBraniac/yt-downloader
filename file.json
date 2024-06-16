@@ -1,0 +1,39 @@
+{
+    
+    "links": [
+        {
+            "quality": "audio",
+            "link": "https://smvd-videos-downloader.ugo-code-studio.workers.dev/download?t=aHR0cHM6Ly9ycjItLS1zbi1haWdsNm56ci5nb29nbGV2aWRlby5jb20vdmlkZW9wbGF5YmFja"
+        },
+        {
+            "quality": "sd_360p",
+            "link": "https://smvd-videos-downloader.ugo-code-studio.workers.dev/download?t=aHR0cHM6Ly9ycjItLS1zbi1haWdsNm56ci5nb29nbGV2aWRlby5jb20vdmlkZW9wbGF5YmFja"
+        },
+        {
+            "quality": "render_1080p60",
+            "link": "https://smvd-short.ugo-code-studio.workers.dev/r/oPNJTfPAtBidkVPuOlMd?dl=1&fn=Test+video"
+        },
+        {
+            "quality": "render_720p60",
+            "link": "https://smvd-short.ugo-code-studio.workers.dev/r/aZXoXNkAQcGFhDfXuIYC?dl=1&fn=Test+video"
+        },
+        {
+            "quality": "render_720p",
+            "link": "https://smvd-short.ugo-code-studio.workers.dev/r/MkSTgKqxkkFHjfjuCeIC?dl=1&fn=Test+video"
+        },
+        {
+            "quality": "render_480p",
+            "link": "https://smvd-short.ugo-code-studio.workers.dev/r/carLsJoNuHgusUzRiNhF?dl=1&fn=Test+video"
+        },
+        {
+            "quality": "render_240p",
+            "link": "https://smvd-short.ugo-code-studio.workers.dev/r/hHgQIvWEesJuCxoWRcus?dl=1&fn=Test+video"
+        },
+        {
+            "quality": "render_144p",
+            "link": "https://smvd-short.ugo-code-studio.workers.dev/r/oqQeGdraHOUcXzgREerT?dl=1&fn=Test+video"
+        }
+    ],
+    "timeTaken": "1014ms",
+    "r_id": "jDmGQTnhKWoYaNyvpraAdheRw"
+}
