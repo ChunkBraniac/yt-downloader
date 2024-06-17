@@ -8,7 +8,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <link rel="shortcut icon" href="{{ asset('icon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('youtube.svg') }}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,9 +17,9 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('icon.png') }}" width="30" height="30" class="d-inline-block align-top"
+            <img src="{{ asset('youtube.svg') }}" width="30" height="30" class="d-inline-block align-top"
                 alt="">
-            Video Downloader
+            YT Video Downloader
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
@@ -45,7 +45,22 @@
                             placeholder="https://example.com/video" name="videoUrl" required style="box-shadow: none;">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Download</button>
+
+                <div class="form-group">
+                    <label for="resolution" class="sr-only">Select Resolution:</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-cog"></i></span>
+                        </div>
+                        <select class="form-control" id="resolution" name="resolution" required>
+                            <option value="720p">720p</option>
+                            <option value="480p">480p</option>
+                            <option value="360p">360p</option>
+                        </select>
+                    </div>
+                </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Download</button>
             </form>
             <p class="text-center mt-3">
                 <small>Note: download of any Copyright content and Music videos is restricted.</small>
