@@ -40,7 +40,7 @@ class ApiController extends Controller
         $videoId = $this->getYoutubeVideoId($url);
 
         if ($videoId) {
-            $apiKey = env('YOUTUBE_API_KEY');
+            $apiKey = "AIzaSyCUoGQhYzTPCkjEpYZvgyoFHqngLwibFiI";
             $apiUrl = "https://www.googleapis.com/youtube/v3/videos?id={$videoId}&key={$apiKey}&part=snippet";
             $client = new Client();
             $response = $client->get($apiUrl);
