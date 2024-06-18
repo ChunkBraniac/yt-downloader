@@ -1,22 +1,20 @@
 {
     "version": 2,
-    "name": "yt-downloader",
+    "name": "yt-downlaoder",
     "builds": [
-      {
-        "src": "public/index.php",
-        "use": "@vercel/php"
-      },
-      {
-        "src": "resources/js/**",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "public/build" }
-      }
+        {
+            "src": "api/index.php",
+            "use": "@vercel/php"
+        },
+        {
+            "src": "public/**",
+            "use": "@vercel/static"
+        }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "public/index.php"
-      }
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
     ]
-  }
-  
+}
