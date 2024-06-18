@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "yt-downlaoder",
+    "name": "yt-downloader",
     "builds": [
         {
             "src": "api/index.php",
@@ -13,8 +13,18 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/api/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/public/$1"
         }
-    ]
+    ],
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.4.0"
+        }
+    }
 }
+
